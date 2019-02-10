@@ -1,0 +1,65 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "alios-studio: Make",
+      "type": "shell",
+      "command": "aos",
+      "args": [
+        "make",
+        "GPIO_LED@esp8266"
+      ],
+      "presentation": {
+        "panel": "dedicated"
+      }
+    },
+    {
+      "label": "alios-studio: Upload",
+      "type": "shell",
+      "command": "aos",
+      "args": [
+        "upload",
+        "GPIO_LED@esp8266"
+      ],
+      "presentation": {
+        "panel": "dedicated"
+      }
+    },
+    {
+      "label": "alios-studio: Serial Monitor",
+      "type": "shell",
+      "command": "aos",
+      "args": [
+        "monitor",
+        "",
+        ""
+      ],
+      "presentation": {
+        "panel": "dedicated"
+      }
+    },
+    {
+      "label": "alios-studio: Clean",
+      "type": "shell",
+      "command": "aos",
+      "args": [
+        "make",
+        "clean"
+      ],
+      "presentation": {
+        "panel": "dedicated"
+      }
+    },
+    {
+      "label": "alios-studio: List Devices",
+      "type": "shell",
+      "command": "aos",
+      "args": [
+        "devices"
+      ],
+      "presentation": {
+        "panel": "dedicated"
+      }
+    }
+  ]
+}

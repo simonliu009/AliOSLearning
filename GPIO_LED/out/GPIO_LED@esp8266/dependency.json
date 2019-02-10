@@ -1,0 +1,61 @@
+{
+    "GPIO_LED": [
+        "yloop", 
+        "cli"
+    ], 
+    "alicrypto": [], 
+    "auto_component": [], 
+    "board_esp8266": [], 
+    "cli": [
+        "hal"
+    ], 
+    "cloud": [], 
+    "common": [], 
+    "digest_algorithm": [], 
+    "esp8266": [
+        "middleware.common", 
+        "yloop", 
+        "rhino.fs.kv", 
+        "libc", 
+        "network.lwip", 
+        "alicrypto", 
+        "hal", 
+        "middleware/uagent/uota/src/recovery", 
+        "digest_algorithm", 
+        "rhino", 
+        "platform/arch/xtensa/lx106"
+    ], 
+    "espos": [], 
+    "hal": [], 
+    "kernel_init": [], 
+    "kv": [
+        "log"
+    ], 
+    "log": [], 
+    "lwip": [], 
+    "nbpatch": [], 
+    "newlib_stub": [], 
+    "osal": [
+        "middleware.common", 
+        "middleware.alink.cloud", 
+        "rhino", 
+        "osal.espos"
+    ], 
+    "recovery": [
+        "middleware.uagent.uota.src.recovery.nbpatch", 
+        "middleware.uagent.uota.src.recovery.xz-embedded"
+    ], 
+    "rhino": [
+        "rhino"
+    ], 
+    "vfs": [
+        "kernel.rhino.vfs.device"
+    ], 
+    "vfs_device": [], 
+    "xtensa": [], 
+    "xz-embedded": [], 
+    "yloop": [
+        "log", 
+        "rhino.vfs"
+    ]
+}

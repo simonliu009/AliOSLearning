@@ -1,0 +1,7 @@
+{
+    "aliosStudio.inner.yosBin": "aos", 
+    "aliosStudio.isAosSource": false, 
+    "aliosStudio.hardware.board": "esp8266", 
+    "aliosStudio.name": "GPIO_LED",
+    "aliosStudio.sdkPath": "C:\\Users\\simonliu\\.aos\\AliOS-Things"
+}
