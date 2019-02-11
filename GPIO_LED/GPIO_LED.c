@@ -24,9 +24,7 @@
  */
 
 
-#define GPIO_LED1   4
-#define GPIO_LED2   5
-#define GPIO_INPUT 14
+
 
 
 static void gpioInit(void);
