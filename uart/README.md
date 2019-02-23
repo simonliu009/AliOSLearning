@@ -1,4 +1,4 @@
-# uart sample
+# uart 例程
   
 基于AliOS example\uart 例程修改。
 默认情况下：
