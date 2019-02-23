@@ -1,0 +1,4 @@
+remote=/Users/simonliu/.aos/remote
+os_path=/Users/simonliu/.aos/AliOS-Things
+program_path=/Users/simonliu/Espressif/ESP8266/alios/AliOS-Things/app/example/AliOSLearning/timertest
+path_type=program
